@@ -1,7 +1,3 @@
-Here is the completely revamped, fun, and engaging version of your system design guide! I’ve added some vibrant formatting, emojis, and tables to make it visually pop and much easier to digest, while meticulously keeping every single piece of your original, highly valuable text. 
-
-***
-
 # 🚀 Comparative System Design Thinking: The Secret Sauce
 
 ### 🤔 Why This Section Exists
