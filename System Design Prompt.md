@@ -5,6 +5,7 @@ They keep the **same structure**, include **Mermaid diagrams**, and **split the 
 
 # Prompt 1 (Part 1)
 
+```
 Create a section focused on **comparative system design thinking using real-world products that appear similar but require very different architectures**.
 
 The goal is to build the ability to **analyze system behavior and choose architectures based on product requirements, scale, and traffic patterns instead of memorizing system design templates**.
@@ -59,11 +60,13 @@ Example diagram types:
 Keep the diagrams **simple, readable, and focused on architectural ideas rather than implementation detail**.
 
 Focus on **architectural reasoning and system behavior**, not low-level implementation.
+```
 
 ---
 
 # Prompt 2 (Part 2)
 
+```
 Continue the comparative system design analysis using the same structure and level of depth as before.
 
 Analyze the following two groups:
@@ -87,11 +90,13 @@ After each group include an **Architectural Insight** summarizing the key system
 Also include **1–2 Mermaid diagrams per group** to visually illustrate the architecture or core data flow (for example: ride matching pipeline, feed generation pipeline, fan-out architecture, etc.).
 
 Keep diagrams simple and focused on understanding system architecture.
+```
 
 ---
 
 # Prompt 3 (Part 3)
 
+```
 Continue the comparative system design analysis using the same structure as before.
 
 Analyze the following two groups:
@@ -113,11 +118,13 @@ For each group include:
 Include an **Architectural Insight** section after each comparison.
 
 Also include **1–2 Mermaid diagrams per group** to visualize important architecture concepts such as payment processing pipelines, fraud detection flows, map data pipelines, or real-time traffic updates.
+```
 
 ---
 
 # Prompt 4 (Part 4)
 
+```
 Continue the comparative system design analysis using the same structure.
 
 Analyze the following two groups:
@@ -141,6 +148,7 @@ After each group include an **Architectural Insight** summarizing the key system
 Also include **1–2 Mermaid diagrams per group** to illustrate important architecture flows such as file sync architecture, distributed storage layers, indexing pipelines, or search query execution flows.
 
 Focus on **architectural reasoning and system behavior rather than deep implementation details**.
+```
 
 ---
 
