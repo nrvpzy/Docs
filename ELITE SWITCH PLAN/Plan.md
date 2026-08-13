@@ -1,14 +1,3 @@
-Let me think about this properly before writing anything — because this is actually a more nuanced question than it looks.
-
-You're asking two things simultaneously:
-
-1. What prep level gets you to 25–35L fixed in May 2027 (Switch 1)
-2. How does Switch 1 position you to crack elite-tier (FAANG/Atlassian-level) in ~2028 (Switch 2)
-
-These two goals have **different and sometimes conflicting prep strategies** if not planned carefully. Let me map the full picture.
-
----
-
 # The Complete 9-Month Prep Plan + 2028 Elite Path
 
 ## Your Honest Baseline (Starting Point)
