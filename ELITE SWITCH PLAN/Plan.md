@@ -118,12 +118,12 @@ This is the most important calibration in this document. Here is exactly what ea
 
 **Revised 40-day allocation:**
 
-| Time Slot               | Activity                                             |
-| ----------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------ |
-| Morning 2.5 hrs         | DSA (3-stage protocol — as previously planned)       |
-| Evening 1 hr            | Rotating: Mon/Wed/Fri = System Design reading (DDIA) | Tue/Thu/Sat = DP problems (start with 1D, House Robber, Climbing Stairs) |
-| Weekend morning 3 hrs   | DSA — harder problems, graph mastery                 |
-| Weekend afternoon 2 hrs | LLD study + one System Design case study             |
+| Time Slot                 | Activity                                                                                                                               |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Morning — 2.5 hrs         | DSA (3-stage protocol — as previously planned)                                                                                         |
+| Evening — 1 hr            | Rotating: **Mon/Wed/Fri:** System Design reading (DDIA)<br>**Tue/Thu/Sat:** DP problems (start with 1D, House Robber, Climbing Stairs) |
+| Weekend morning — 3 hrs   | DSA — harder problems, graph mastery                                                                                                   |
+| Weekend afternoon — 2 hrs | LLD study + one System Design case study                                                                                               |
 
 **DP in notice period — what to cover:**
 
