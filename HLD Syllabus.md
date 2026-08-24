@@ -69,3 +69,94 @@
 | 65 | System Design: Distributed File Storage | — |
 | 66 | System Design: Job Scheduler | — |
 | 67 | System Design: Search / Autocomplete | — |
+
+---
+
+### Why this order?
+
+The progression is intentional:
+
+**1–10 → Request/traffic layer**
+
+You first understand how a request travels:
+
+`Client → CDN → Load Balancer → API Gateway → Service`
+
+**11–19 → Database layer**
+
+Then understand where data lives and how it scales:
+
+`DB → Transactions → Indexes → Replication → Sharding → Consistency`
+
+**20–27 → Performance + async communication**
+
+Then:
+
+`Cache → Consistent Hashing → Queue → Kafka → WebSockets`
+
+**28–34 → Distributed correctness**
+
+This is where SDE-2 interviews become much more interesting:
+
+`Idempotency → Concurrency → Locks → Transactions → SAGA → Outbox → Events`
+
+**35–48 → Production reliability**
+
+Now learn what happens when things go wrong:
+
+`Rate Limit → Retry → Circuit Breaker → Backpressure → HA → Observability → DR → Multi-region`
+
+**49–53 → Security**
+
+You don't need to become a security engineer, but you should be able to make sensible choices in a system-design interview.
+
+**54 → Estimation**
+
+I'd actually practice estimation throughout the course, but have one dedicated session for it before starting full designs.
+
+**55–67 → Actual interview practice**
+
+This is the most important section.
+
+Don't watch a solution first.
+
+For each problem, give yourself **45–60 minutes** and independently go through:
+
+```text
+Requirements
+     ↓
+Scale / Estimation
+     ↓
+APIs
+     ↓
+High-Level Architecture
+     ↓
+Database + Data Model
+     ↓
+Caching
+     ↓
+Async Processing / Queues
+     ↓
+Consistency
+     ↓
+Failure Handling
+     ↓
+Scaling
+     ↓
+Bottlenecks
+     ↓
+Trade-offs
+```
+
+### One important thing
+
+You **don't need to study all 67 steps with equal depth**.
+
+For SDE-2, I'd make **1–48 your theory foundation**, then spend a lot of time on **55–67**.
+
+If you're short on time, the highest-ROI topics are:
+
+**APIs → LB → Caching → DB → Replication → Sharding → CAP/Consistency → Kafka → Idempotency → SAGA/Outbox → Rate Limiting → Retry/Circuit Breaker → HA → Observability → Estimation → System-design practice.**
+
+That combination is more valuable than going extremely deep into every individual topic.
+
